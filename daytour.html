@@ -1,58 +1,142 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-  <link rel="stylesheet" href="daytour.css">
-  <title>Day Tour</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="accommodation.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <title>Document</title>
+
+    
 </head>
 <body>
-  <section id="top" class="container">
-    <h4 class="display-2 text-light greeting text-center">
-      <!-- Splash your day tour with us -->
-      Day tour & Adventures
-    </h4>
-  </section>
+    <body>   
+      <nav class="navbar navbar-expand-lg navbar-expand-md navbar-dark fixed-top  " >
+        <div class="container-fluid">
+            <a href="index.html" class="navbar-brand mx-2" style="font-size: 23px; font-family: 'Montserrat', sans-serif;">Soul Shine Beach House</a>
+            <button class="navbar-toggler" data-bs-toggle="collapse" 
+            data-bs-target="#collapse"><span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="collapse">
+        <div class="navbar-nav ms-auto mx-4">
+            <a href="index.html" class="nav-item nav-link">Home</a>
+            <a href="accommodation.html" class="nav-item nav-link">Accomodation</a>
+            <a href="shop.html" class="nav-item nav-link">Day Tour</a>
+            <a href="project.html" class="nav-item nav-link">Contact Us</a>
+            <a href="about.html" class="nav-item nav-link">About Us</a>
+        </div>
+        </div>
+        </div>
+        </nav>
+    <main>
+      
+      <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="img-fluid" src="{{URL::to('/assets/images/main.jpg')}}" alt="">
+          </div>
+        </div>
+      </div>
 
-  <section id="tag-line" class="container">
-   <div class="card bg-transparent border-0 text-center text-white">
-    <div class="card-header fs-2 text-nowrap border-info">
-      <!-- SOUL SHINE AT ITS BEST --> Day tour & Adventures
-    </div>
-    <div class="card-body">
-      <p class="card-text col text-wrap fs-5">Look no further than our day-tour! Our property offers all the comforts for an enjoyable day out. You can also enjoy swimming and snorkeling to the coral reef right at the property. With our day-tour, we make it easy to escape the everyday routine and have a memorable time with family.</p>
-    </div>
-   </div>
-  </section>
+      <section id="paradise">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h1 class="text-center" style=" font-size: 40px; font-family: 'Montserrat', sans-serif; color: #5e6d67;"><b>You can always go on day trips with us!</b></h1>
+                </div>
+    
+            </div>
+        </div>
+    </section>
 
-  <section id="perks" class="container">
-    <div class="row justify-content-evenly">
-      <div class="col"></div>
-      <div class="col"></div>
-      <div class="col"></div>
-      <div class="col"></div>
-      <div class="col"></div>
-      <div class="col"></div>
-    </div>
-  </section>
+      <div class="container marketing">
 
-  <section>
-    <div><H2>HEY</H2></div>
-  </section>
+        <hr class="featurette-divider">
+    
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h2 class="featurette-heading fw-normal lh-1 mb-4">Day Tour</h2>
+            <ul>
+              <li class="content lead"><span class="sub-content">Entrance Fee:</span> Php 50 entrance (Free for 12 yrs old under) </li>
+              <li class="content lead"><span class="sub-content">Day Tour Rates:</span> Php 350 per table or shed</li>
+            </ul>
+            <p class="sub-content lead fw-bold">Highlights:</p>
+            <p class="content lead mt-2"> Enjoy the property for the day. We offer cabanas, sheds, tables & chairs, benches, toilets, barbeque, kitchen. You can also enjoy swimming, snorkeling to the coral reef right at the property.  
+            </p>
 
-  <section>
-    <div><H2>HEY</H2></div>
-  </section>
+            <p class="content lead mt-2"><span class="sub-content lead fw-bold">Tent Camping</span> Php 500 per night
+            </p>
+            <p class="content lead mt-2"> Experience the camping right on the property. You can bring your own tent and enjoy the sundown and sun rise. You can collect some wood in the area and make your own fire to cook or bonfire in the evening. We have kitchen , toilet and shower provided as well. You can walk form our property to the long beach.  
+            </p>
 
-  <section>
-    <div><H2>HEY</H2></div>
+            <div class="d-grid gap-2">
+              <button class="btn w-50 mt-3 text-white mx-auto " type="submit" id="souls">Book Now <i class="bi bi-arrow-right ms-1" style="font-size: 17px;"></i></button>
+            </div>
 
-  </section>
-  
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+          </div>
+          <div class="col-md-5">
+            <img class="img-fluid" src="{{URL::to('/assets/images/dt1.jpg')}}" alt="">
+            <img class="img-fluid mt-3" src="{{URL::to('/assets/images/dt2.jpg')}}" alt="">
+          </div>
+        </div>
+    
+        <hr class="featurette-divider">
+    
+    
+      </div>
 
-  <script src="index.js"></script>t
+      <section id="footer">
+        <div class="container" >
+            <div class="row">
+                <div class="card col-lg-4 col-md-6 px-5 py-4" id="cards2">
+                <div class="class-body">
+                    <h5 class="card-title mt-2 text-white" style="font-size: 15px;" ><b>BE UPDATED</b></h3>
+                    <hr class="" style="width: 70px; border: 2px solid whitesmoke; border-radius: 5px;">
+                    <h6 class="card-text mt-3 text-white" style="font-size: 15px; ">Get Relaxed and feel the ocean breeze that you are looking for with your friends & family at Soul Shine Beach House</h6>
+                    <a href="" style="color: yellow; font-size: 15px;">Subscribe <i class="bi bi-arrow-right ms-2"></i></a>
+                </div>
+                </div>
+            
+                <div class="card col-lg-4 col-md-6 px-5 py-4" id="cards2">
+                <div class="class-body">
+                    <h5 class="card-title mt-2 text-white  " style="font-size: 15px;"><b>DISCOVER SOUL SHINE BEACH HOUSE</b></h3>
+                        <hr class="" style="width: 70px; border: 2px solid whitesmoke; border-radius: 5px;">
+                    <h6 class="card-text"><a href="" class="navs"  >Sea Haven</a></h6>
+                    <h6 class="card-text"><a href="" class="navs" >Seagull</a></h6>
+                    <h6 class="card-text"><a href="" class="navs" >Accomodation</a></h6>
+                    <h6 class="card-text"><a href="" class="navs" >Day Tour</a></h6>
+                    <h6 class="card-text"><a href="" class="navs" >About Us</a></h6>             
+                </div>
+                </div>
+        
+                <div class="card col-lg-4 col-md-6 px-5 py-4" id="cards2">
+                    <div class="class-body">
+                        <h5 class="card-title mt-2 text-white" style="font-size: 15px;" ><b>GET IN TOUCH</b></h3>
+                            <hr class="" style="width: 70px; border: 2px solid whitesmoke; border-radius: 5px;">
+                        <h6 class="card-text text-white">Make your dream Palawan escapade come true, book with us now!</h5>
+                        <h6 class="card-text text-white mt-2">Address: Sitio Talaudyong, Bacungan, Puerto Princesa</h6>
+                        <h6 class="card-text text-white mt-2">Phone number: 09208040258/09678964071</a></h6>
+                        <h6 class="card-text text-white mt-2">Email: shareelovebaby@yahoo.com</a></h6>
+                        <div class="social-links mt-4">
+                            <a href="" target="_blank"><i class="bi bi-facebook px-4 "id="socials1"></i></a>
+                            <a href="" target="_blank"><i class="bi bi-instagram px-4 "id="socials1"></i></i></a>
+                            <a href="" target="_blank"><i class="bi bi-twitter px-4  "id="socials1"></i></a>
+                        </div>
+                                    
+                    </div>
+                    
+                    </div>
+                    <p class="card-text text-center text-white  mt-4 pt-4">&copy; 2023 SOUL SHINE BEACH HOUSE. All Rights Reserved.</p>
+                    
+                </div>
+        
+            </section>
+    </main>
+
+        <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+
+      </body>
 </body>
 </html>
